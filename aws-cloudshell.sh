@@ -46,5 +46,9 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 ## also applies to most
 # export PAGER="/usr/bin/most -s"
 
+## aws cloudshell specific
+DEFAULT_VPC=$(aws ec2 describe-vpcs | jq -r .Vpcs[0].VpcId)
+
 ## Say Hello 
 echo "Hello"
+echo "Default VPC:" $DEFAULT_VPC

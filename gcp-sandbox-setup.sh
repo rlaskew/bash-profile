@@ -14,6 +14,9 @@ git clone https://github.com/rlaskew/gcp-workspace
 #source ~/.bash_aliases
 #source ~/.profile
 
+## todo 
+# gcloud services enable container.googleapis.com
+
 set -o vi
 
 ## from https://git-scm.com/docs/git-credential-cache

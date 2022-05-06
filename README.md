@@ -5,4 +5,4 @@ Bash Profile files
 git clone https://github.com/rlaskew/bash-profile && ./bash-profile/gcp-sandbox-setup.sh
 
 ## Getting started with K8s/envoy sandbox vm
-git clone https://github.com/rlaskew/bash-profile && git clone https://github.com/rlaskew/k8s-workspace
+git clone https://github.com/rlaskew/bash-profile && ./bash-profile/k8s-workspace-setup.sh

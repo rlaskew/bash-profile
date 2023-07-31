@@ -1,6 +1,9 @@
 #!/bin/bash
 
 echo "set -o vi" >> ~/.bashrc
+echo "alias h=history" >> ~/.bashrc
+echo 'alias refresh="source ~/.bashrc"' >> ~/.bashrc
+
 . ~/.bashrc
 
 set -o vi
